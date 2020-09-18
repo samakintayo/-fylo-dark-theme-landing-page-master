@@ -1,0 +1,320 @@
+body {
+  background-color: hsl(218, 28%, 13%);
+  color: #fff;
+  font-family: 'Raleway';
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar {
+  padding: 2% 2%;
+  font-family: 'Raleway';
+}
+
+.logo {
+  padding: 5% 3%;
+  width: 100px;
+  height:30px;
+}
+
+.nav {
+    padding:0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .logo {
+  margin-right: 800px;
+} */
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  font-family: 'Poppins';
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li a {
+  font-size: 10px;
+  float: left;
+  padding: 10px;
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* HEAD-SECTION */
+#head-section {
+  padding: 5% 13%;
+  margin: auto;
+}
+
+#head-section .container {
+  text-align: center;
+}
+
+.illustration-images {
+  width: 20%;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+  margin: auto;
+}
+
+.myButton {
+  margin: 10px;
+  background: linear-gradient(to bottom, #73a6ff 5%, #0c6fd1 100%);
+  background-color: #73a6ff;
+  border-radius: 19px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 12px 60px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px #283966;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #0c6fd1 5%, #73a6ff 100%);
+  background-color: #0c6fd1;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/* FEATURE SECTION */
+#Feature-Section {
+  padding: 5% 13%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#Feature-Section .container {
+  padding: 2%;
+}
+
+.features {
+  display: inline-block;
+  padding: 2%;
+  margin: 2rem;
+  width: 35%;
+  text-align: center;
+}
+
+.feature-img {
+  width: 5rem;
+}
+
+/* PRODCTIVE-SECTION */
+#productive-section {
+  padding: 3% 13%;
+}
+
+.productive-img {
+  display: inline-block;
+  width: 25%;
+  padding: 2%;
+  float: left;
+  margin: 2%;
+}
+
+.productive-text {
+  display: inline-block;
+  margin: 5%;
+  padding: 3;
+  width: 50%;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials {
+  margin: auto;
+  padding: 3% 5%;
+}
+
+#testimonials .container {
+  display: inline-block;
+  padding: 10px;
+  ;
+  margin: auto;
+  text-align: left;
+}
+
+#testimonials .Button {
+  margin: 10px;
+  background-color: #73a6ff;
+  border-radius: 19px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 12px 60px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px #283966;
+}
+
+.testimonial-div {
+  background-color: hsl(219, 30%, 18%);
+  display: inline-block;
+  width: 25%;
+  height: 120px;
+  padding: 25px 30px;
+  margin: 5px;
+}
+
+.testimonial-text {
+  font-size: 12px;
+}
+
+.profile-img {
+  border-radius: 100px;
+  width: 30px;
+  float: left;
+  margin: 0px 4px;
+  ;
+  text-align: left;
+}
+
+h5 {
+  margin: 0;
+}
+
+.get-access {
+  background-color: hsl(219, 30%, 18%);
+  box-shadow: 4px 9px 4px 1px rgba(0, 0, 0, .2);
+  width: 60%;
+  margin: auto;
+  padding: 2%;
+  text-align: center;
+}
+
+input {
+  margin: 10px;
+  padding: 10px 40px;
+  border-radius: 19px;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* FOOTER-Section */
+#Footer-Section {
+  padding: 20px
+}
+
+.contact-container {
+  padding: 0 7%;
+  display: flex;
+}
+
+.contact-div {
+  margin: auto;
+  text-align: center;
+  margin: auto;
+}
+
+.contact {
+  font-size: 0.8rem;
+  margin: 15px;
+  width: 20%;
+}
+
+.footer {
+  padding: 15px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 700px) {
+
+  #nav-bar .nav {
+    padding: 5% 2%;
+    font-family: 'Raleway';
+  }
+
+  #head-section, #head-section .container {
+    text-align: center;
+    width: 100%;
+  }
+
+  #Feature-Section {
+    padding: 0px;
+  }
+
+  .features {
+    width: 100%;
+  }
+
+  #Feature-Section .container {
+    width: 100%;
+  }
+
+  .productive-text {
+    display: grid;
+    margin: 5%;
+    padding: 5%;
+    width: 100%;
+  }
+
+  #testimonials .container {
+    display: grid;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .testimonial-div {
+    display: grid;
+    width: 100%;
+    margin: 5px;
+  }
+
+  .get-access {
+    width: 100%;
+    margin: auto;
+  }
+
+  .productive-img {
+    width: 20rem;
+    padding: 2%;
+    margin: auto;
+  }
+
+  #Footer-Section {
+    width: 100%;
+  }
+
+  .contact-container {
+    display: grid;
+    margin: auto;
+    text-align: left;
+  }
+
+  .contact {
+    width: 100%;
+  }
+}
+
+/* .testimonial-div, #Feature-Section .container{
+    position: static;
+    display: grid;
+    width: 100%;
+  }
+
+  #testimonials{
+    padding: 0;
+  }
+  #testimonials .container {
+display: grid;
+width: 80%;
+margin: 0;
+  }
+} */
